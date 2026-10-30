@@ -16,7 +16,7 @@
         { id: 'classics', name: 'Classics', sub: 'Familiar favourites', flavours: ['Cola', 'Mint Mojito', 'Lemon Lime', 'Orange', 'Berry Blast', 'Peach Ice Tea'] },
         { id: 'desi', name: 'Desi', sub: 'Regional favourites', flavours: ['Shikanji', 'Kala Khatta', 'Rose', 'Khus', 'Aam Panna', 'Jaljeera'] }
       ],
-      discovery: { id: 'discovery-hydrate', title: 'Hydrate Discovery Box', price: 99, image: 'assets/hydrate-discovery.webp', desc: 'Six desi-inspired water flavours, one easy way to find a new favourite.', unit: '6 flavours · 60 tablets', included: ['Shikanji', 'Kala Khatta', 'Rose', 'Khus', 'Aam Panna', 'Jaljeera'] }
+      discovery: { id: 'discovery-hydrate', title: 'Hydrate Discovery Box', price: 99, image: 'assets/hydrate-discovery.webp', desc: 'Six desi-inspired water flavours, one easy way to find a new favourite.', unit: '6 flavours · 12 tablets · 2 of each', included: ['Shikanji', 'Kala Khatta', 'Rose', 'Khus', 'Aam Panna', 'Jaljeera'] }
     },
     meltz: {
       key: 'meltz', name: 'Meltz', display: 'meltz', title: 'Chakh-Na! Meltz', logo: 'assets/logo-meltz.webp',
@@ -30,7 +30,7 @@
         { id: 'curries', name: 'Indian Curry', sub: 'Regional favourites', image: meltzImages.curries, flavours: ['Makhani (Punjab)', 'Kadhai (North)', 'Kolhapuri (Maharashtra)', 'Chettinad (Tamil Nadu)', 'Kashmiri Rogan', 'Achari'] },
         { id: 'classics', name: 'Classics', sub: 'Global flavour, desi attitude', image: meltzImages.classics, flavours: ['Peri Peri', 'Chipotle', 'Garlic Herb', 'Smoky BBQ', 'Mexican Taco', 'Chilli Cheese'] }
       ],
-      discovery: { id: 'discovery-meltz', title: 'Meltz Discovery Box', price: 99, image: 'assets/meltz-discovery.webp', desc: 'Six regional flavour cubes for a little tour of India’s tadka.', unit: '6 regional flavours · 6 cubes', included: ['Punjabi Tadka', 'South Tadka', 'Kashmiri Tadka', 'Haryali Tadka', 'Indori Tadka', 'Maharashtrian Tadka'] }
+      discovery: { id: 'discovery-meltz', title: 'Meltz Discovery Box', price: 99, image: 'assets/meltz-pasta-discovery.webp', desc: 'Six regional flavour cubes for a little tour of India’s tadka.', unit: '6 regional flavours · 6 cubes', included: ['Punjabi Tadka', 'South Tadka', 'Kashmiri Tadka', 'Haryali Tadka', 'Indori Tadka', 'Maharashtrian Tadka'] }
     },
     creme: {
       key: 'creme', name: 'Creme', display: 'creme', title: 'Chakh-Na! Creme', logo: 'assets/logo-creme.webp',
@@ -42,7 +42,7 @@
         { id: 'classics', name: 'Classics', sub: 'Cafe-inspired favourites', flavours: ['Chocolate', 'Vanilla', 'Coffee', 'Nutella', 'Strawberry', 'Cookie'] },
         { id: 'desi', name: 'Desi', sub: 'A taste of home', flavours: ['Kesar Badam', 'Kaju Pista', 'Malai Kulfi', 'Rose Milk', 'Thandai', 'Elaichi'] }
       ],
-      discovery: { id: 'discovery-creme', title: 'Creme Discovery Box', price: 99, image: 'assets/creme-discovery.webp', desc: 'Six indulgent milk flavours. One box of little treats.', unit: '6 flavours · 60 tablets', included: ['Chocolate', 'Vanilla', 'Coffee', 'Tiramisu', 'Strawberry', 'Cookies & Cream'] }
+      discovery: { id: 'discovery-creme', title: 'Creme Discovery Box', price: 99, image: 'assets/creme-discovery.webp', desc: 'Six indulgent milk flavours. One box of little treats.', unit: '6 flavours · 12 tablets · 2 of each', included: ['Chocolate', 'Vanilla', 'Coffee', 'Tiramisu', 'Strawberry', 'Cookies & Cream'] }
     }
   };
   const productRecords = {};
